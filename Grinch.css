@@ -1,0 +1,52 @@
+{	
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+	background: url(img/123.jpg) ;
+
+}
+main {
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background: transparent;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+	color: white;
+}
+
+
+.photo {
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16*9);
+	margin: 20px;
+	background-color: #E6DDC4;
+	background-position: center;
+	background-size: cover;
+}
+
+
+h1{
+	
+	wight: 100%;
+	font-size: 58px;
+	}
+h2{
+	
+	wight: 100%;
+	font-size: 38px;
+	}	
+h3{
+	
+	wight: 100%;
+	font-size: 38px;
+	}	
+.photo:hover{
+	transform: rotate(5deg) scale(1.07);
+}
